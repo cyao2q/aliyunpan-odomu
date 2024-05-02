@@ -54,8 +54,8 @@
       { "from": "./static/engine/win32/${arch}", "to": "./engine"}
     ],
     "target": [
-      { "target": "nsis", "arch": [ "x64", "ia32", "arm64" ] },
-      { "target": "zip", "arch": [ "x64", "ia32", "arm64" ] }
+      { "target": "nsis", "arch": [ "x64" ] },
+      { "target": "zip", "arch": [ "x64" ] }
     ]
   },
   "dmg": {
@@ -74,8 +74,8 @@
   },
   "publish": [
     {
-      "owner": "odomu",
-      "repo": "aliyunpan",
+      "owner": "cyao2q",
+      "repo": "aliyunpan-odomu",
       "provider": "github",
       "publishAutoUpdate": false,
       "releaseType": "prerelease"
